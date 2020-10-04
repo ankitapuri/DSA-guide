@@ -1,30 +1,53 @@
+//Extended program as Menu based.
+
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
-  int array[100], search, c, n;
+  system("cls");
+  int array[100], search, c, n,x;
 
-  printf("Enter the number of elements in array\n");
+  frame:
+  printf("Enter the number of elements in array: ");
   scanf("%d", &n);
 
-  printf("Enter %d integer(s)\n", n);
+  printf("\nEnter %d integer(s): ", n);
 
   for (c = 0; c < n; c++)
     scanf("%d", &array[c]);
+  
+  label:
+  	printf("\nEnter a number to search: ");
+  	scanf("%d", &search);
 
-  printf("Enter a number to search\n");
-  scanf("%d", &search);
+  	for (c = 0; c < n; c++)
+  	{
+    	if (array[c] == search)    
+    	{
+      	printf("\n%d is present at index %d.\n", search, c+1);
+      	break;
+    	}
+  	}
+  	if (c == n)
+    printf("\n%d is not present in the array.\n", search);
+	
+	printf("\nIf you want to search again press(1).");
+	printf("\nIf you want to enter new array press(2).");
+	printf("\nIf you want to enter exit press anything else.\n");
+	printf("\nEnter your choice: ");
+	scanf("%d", &x);
 
-  for (c = 0; c < n; c++)
-  {
-    if (array[c] == search)    
-    {
-      printf("%d is present at index %d.\n", search, c+1);
-      break;
-    }
-  }
-  if (c == n)
-    printf("%d is not present in the array.\n", search);
-
+	switch(x)
+	{
+		case 1:
+		goto label;
+		break;
+		case 2:
+		goto frame;
+		break;
+		default:
+		exit(1);
+	}  	
   return 0;
 }
