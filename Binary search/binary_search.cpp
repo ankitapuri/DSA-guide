@@ -1,15 +1,13 @@
 #include <iostream>
-#include<conio.h>
 #include<stdlib.h>
 
 #define MAX_SIZE 5
 
 using namespace std;
 
-int main()
-{
+int main() {
     int arr_search[MAX_SIZE], i, element;
-    int f = 0, r = MAX_SIZE, ;
+    int f = 0, r = MAX_SIZE;
 
     cout << "Simple C++ Binary Search Example - Array\n";
     cout << "\nEnter " << MAX_SIZE << " Elements for Searching : " << endl;
@@ -19,7 +17,7 @@ int main()
     cout << "\nYour Data   :";
     for (i = 0; i < MAX_SIZE; i++) {
         cout << "\t" << arr_search[i];
- }
+    }
 
     cout << "\nEnter Element to Search : ";
     cin>>element;
@@ -40,5 +38,6 @@ int main()
     if (f > r)
         cout << "\nSearch Element : " << element << "  : Not Found \n";
 
-    getch();
+        return 0;
+
 }
