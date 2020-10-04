@@ -20,5 +20,5 @@ If this is your first time to open source contribution I have created this repo 
    -  Push changes
     - git push -u origin <name_of_your_branch>
     
-    -  Create pull requests
+   -  Create pull requests
     - [Try to Mention the related issue for your PR]
