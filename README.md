@@ -24,7 +24,7 @@ If this is your first time to open source contribution I have created this repo 
     - [Try to Mention the related issue for your PR]
 
 ## instructions 
--create a folder for the topic you wish to code! and add the respective files over it
--if a folder already exists, add your codes to it
--make sure that there would be no repetitions on the same language
+- create a folder for the topic you wish to code! and add the respective files over it
+- if a folder already exists, add your codes to it
+- make sure that there would be no repetitions on the same language
 
