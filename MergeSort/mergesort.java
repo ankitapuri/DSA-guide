@@ -1,97 +1,151 @@
+import java.io.*;
+import java.util.*;
 
-class MergeSort { 
-	// Merges two subarrays of arr[]. 
-	// First subarray is arr[l..m] 
-	// Second subarray is arr[m+1..r] 
-	void merge(int arr[], int l, int m, int r) 
-	{ 
-		// Find sizes of two subarrays to be merged 
-		int n1 = m - l + 1; 
-		int n2 = r - m; 
+class Reader {
+  static BufferedReader reader;
+  static StringTokenizer tokenizer;
+  static void init(InputStream input) {
+      reader = new BufferedReader(
+                   new InputStreamReader(input) );
+      tokenizer = new StringTokenizer("");
+  }
+  static String next() throws IOException {
+      while ( ! tokenizer.hasMoreTokens() ) {
+          tokenizer = new StringTokenizer(
+                 reader.readLine() );
+      }
+      return tokenizer.nextToken();
+  }
+  static int nextInt() throws IOException {
+      return Integer.parseInt( next() );
+  }
+  static long nextLong() throws IOException {
+      return Long.parseLong( next() );
+  }    
+  static double nextDouble() throws IOException {
+      return Double.parseDouble( next() );
+  }
+}
 
-		/* Create temp arrays */
-		int L[] = new int[n1]; 
-		int R[] = new int[n2]; 
 
-		/*Copy data to temp arrays*/
-		for (int i = 0; i < n1; ++i) 
-			L[i] = arr[l + i]; 
-		for (int j = 0; j < n2; ++j) 
-			R[j] = arr[m + 1 + j]; 
 
-		/* Merge the temp arrays */
 
-		// Initial indexes of first and second subarrays 
-		int i = 0, j = 0; 
+public class Main {
+	
+	static void findPrefixS(long[] arr, long no, long prefixSum[])
+    {
+        prefixSum[0] = arr[0];
+        int i = 1;
+        while(i < no) {
+            prefixSum[i] = prefixSum[i-1] + arr[i];
+            i++;
+        }
+    }
+	
+    
+    static void merge(long[] subsetSum, int l, int m, int r)
+    {
+        int n1 = m - l + 1;
+        int n2 = r - m;
+ 
+        int L[] = new int [n1];
+        int R[] = new int [n2];
+ 
 
-		// Initial index of merged subarry array 
-		int k = l; 
-		while (i < n1 && j < n2) { 
-			if (L[i] <= R[j]) { 
-				arr[k] = L[i]; 
-				i++; 
-			} 
-			else { 
-				arr[k] = R[j]; 
-				j++; 
-			} 
-			k++; 
-		} 
+        for (int i=0; i<n1; ++i)
+            L[i] = (int) subsetSum[l + i];
+        for (int j=0; j<n2; ++j)
+            R[j] = (int) subsetSum[m + 1+ j];
+ 
 
-		/* Copy remaining elements of L[] if any */
-		while (i < n1) { 
-			arr[k] = L[i]; 
-			i++; 
-			k++; 
-		} 
+        int i = 0, j = 0;
+ 
+        int k = l;
+        while (i < n1 && j < n2)
+        {
+            if (L[i] >= R[j])
+            {
+                subsetSum[k] = L[i];
+                i++;
+            }
+            else
+            {
+                subsetSum[k] = R[j];
+                j++;
+            }
+            k++;
+        }
+ 
+        while (i < n1)
+        {
+            subsetSum[k] = L[i];
+            i++;
+            k++;
+        }
+ 
+        while (j < n2)
+        {
+            subsetSum[k] = R[j];
+            j++;
+            k++;
+        }
+    }
+ 
 
-		/* Copy remaining elements of R[] if any */
-		while (j < n2) { 
-			arr[k] = R[j]; 
-			j++; 
-			k++; 
-		} 
-	} 
-
-	// Main function that sorts arr[l..r] using 
-	// merge() 
-	void sort(int arr[], int l, int r) 
-	{ 
-		if (l < r) { 
-			// Find the middle point 
-			int m = (l + r) / 2; 
-
-			// Sort first and second halves 
-			sort(arr, l, m); 
-			sort(arr, m + 1, r); 
-
-			// Merge the sorted halves 
-			merge(arr, l, m, r); 
-		} 
-	} 
-
-	/* A utility function to print array of size n */
-	static void printArray(int arr[]) 
-	{ 
-		int n = arr.length; 
-		for (int i = 0; i < n; ++i) 
-			System.out.print(arr[i] + " "); 
-		System.out.println(); 
-	} 
-
-	// Driver method 
-	public static void main(String args[]) 
-	{ 
-		int arr[] = { 12, 11, 13, 5, 6, 7 }; 
-
-		System.out.println("Given Array"); 
-		printArray(arr); 
-
-		MergeSort ob = new MergeSort(); 
-		ob.sort(arr, 0, arr.length - 1); 
-
-		System.out.println("\nSorted array"); 
-		printArray(arr); 
-	} 
-} 
-
+    static void sort(long[] subsetSum, int l, int r)
+    {
+        if (l < r)
+        {
+            int m = (l+r)/2;
+ 
+            sort(subsetSum, l, m);
+            sort(subsetSum , m+1, r);
+            merge(subsetSum, l, m, r);
+            
+        }
+    }
+    
+    
+    
+	
+    public static void main(String[] args) throws IOException {
+    	Reader.init(System.in);
+		int t = Reader.nextInt();
+		for(int test = 0; test < t; test++) {
+			int n = Reader.nextInt();
+			long k = Reader.nextLong();
+			long arr[] = new long[(int) n];
+			for(int x = 0 ; x < n ; x++) {
+				arr[x] = Reader.nextLong();
+			}
+			long prefixSum[] = new long[(int) n];     
+	        findPrefixS(arr, n, prefixSum);
+	        long subsetsize = (n*(n+1))/2;
+	        long subsetSum[] = new long[(int) subsetsize];
+	        long counter = 0;
+	        
+	        for(int y = 0; y < n; y++) {
+	        	for(int x = y; x < n; x++) {
+	        		if(y == 0) {//x == y
+	        			subsetSum[(int) counter] = prefixSum[x];//y
+	        			counter++;
+	        		}
+	        		else {
+	        			subsetSum[(int) counter] = prefixSum[x] - prefixSum[y-1];//y
+	        			counter++;
+	        		}
+	        	}
+	        }
+	        
+	        sort(subsetSum,0,subsetSum.length-1);
+	        for(int z = 0; z < k; z++) {
+	        	System.out.print(subsetSum[z] + " ");
+	        }
+	        
+	        System.out.println();
+	        
+		}
+        
+    }
+ 
+}
