@@ -20,4 +20,4 @@
 
 console.log(linearSearch([1,2,3,4,5], 2));
 console.log(linearSearch([1,2,3,4,5], 10));
-console.log(linearSearch([1,2,2,3,4,5], 2));
+console.log(linearSearch([1,2,3,4,5,5], 5));
