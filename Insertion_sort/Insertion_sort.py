@@ -7,3 +7,7 @@ def insertion_sort (L):
             L [j+1] = L [j]
             j = j-1
         L [j+1] = item
+if __name_ == "__main__":
+    L = input().splice()
+    insertion_sort (L)
+    print (L)
