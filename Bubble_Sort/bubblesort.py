@@ -1,11 +1,12 @@
 a = []					
 number = int(input("Enter the total number of elements: "))	#Enter the number of inputs.
+print("Enter the inputs:")
 for i in range(number):
-    value = int(input(%i))		#Input the elements 
-    a.append(value)			#appending elements to the array
+    value = int(input())				#Input the elements 
+    a.append(value)					#appending elements to the array
 
-for i in range(number - 1):		#traverses throughout the array
-    for j in range(number - i - 1):	#this loop swaps if the element is greater than the next element 
+for i in range(number):		#traverses throughout the array
+    for j in range(number - 1):	#this loop swaps if the element is greater than the next element 
         if(a[j] > a[j + 1]):
              temp = a[j]
              a[j] = a[j + 1]
