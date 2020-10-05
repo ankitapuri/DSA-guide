@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Binary_Search"/>
+	<classpathentry kind="src" path="Bubble_Sort"/>
+	<classpathentry kind="src" path="Counting_Sort"/>
+	<classpathentry kind="src" path="Heap_Sort"/>
+	<classpathentry kind="src" path="Insertion_Sort"/>
+	<classpathentry kind="src" path="MergeSort"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
