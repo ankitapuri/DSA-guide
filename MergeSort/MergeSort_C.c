@@ -90,8 +90,14 @@ void printArray(int A[], int size)
 /* Driver program to test above functions */
 int main() 
 { 
-	int arr[] = { 12, 11, 13, 5, 6, 7 }; 
-	int arr_size = sizeof(arr) / sizeof(arr[0]); 
+	int arr_size;
+	printf("Enter the size of array: ");
+	scanf("%d",&arr_size);
+	int arr[arr_size];
+	
+	printf("Enter the elements of the array: ");
+	for(int i = 0; i< arr_size;i++)
+		scanf("%d",&arr[i]);
 
 	printf("Given array is \n"); 
 	printArray(arr, arr_size); 
@@ -104,9 +110,10 @@ int main()
 } 
 
 /*Output : 
-
+Enter the size of array: 5
+Enter the elements of the array: 12 14 11 1 5
 Given array is
-12 11 13 5 6 7
+12 14 11 1 5
 
 Sorted array is
-5 6 7 11 12 13 */
+1 5 11 12 14*/
