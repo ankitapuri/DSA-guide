@@ -1,5 +1,5 @@
 // Java program for implementation of QuickSort 
-class Quick_Sort 
+public class Quick_Sort 
 { 
 	/* This function takes last element as pivot, 
 	places the pivot element at its correct 
@@ -65,10 +65,10 @@ class Quick_Sort
 	// Driver program 
 	public static void main(String args[]) 
 	{ 
-		int arr[] = {10, 7, 8, 9, 1, 5}; 
+		int arr[] = {12, 321, 45, 8, 2, 0}; 
 		int n = arr.length; 
 
-		QuickSort ob = new QuickSort(); 
+		Quick_Sort ob = new Quick_Sort(); 
 		ob.sort(arr, 0, n-1); 
 
 		System.out.println("sorted array"); 
