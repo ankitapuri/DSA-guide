@@ -53,11 +53,13 @@
         
         int main()
         {
-        	int ar[10], length;
+        	int length;
         	
         	printf("Enter the length of the array ");
         	  scanf("%d",&length);
-        	  
+		
+        	int ar[length];
+		
         	printf("Enter the elements in the array ");
 			   
 			   for(int i = 0; i < length; i++)
