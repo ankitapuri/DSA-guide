@@ -15,7 +15,8 @@ void shellSort (int arr[], int n) {
 		// keep adding element untill entire array is sorted
 		for (int i = space; i < n; i += 1) {
 			int tmp = arr[i]; // store value in tmp for letter use
-			for (int j = i; j >= space && tmp < arr[j-space]; j -= space) {
+			int j;
+			for (j = i; j >= space && tmp < arr[j-space]; j -= space) {
 				arr[j] = arr[j-space];
 			}
 			// j is the correct position for tmp
@@ -30,7 +31,7 @@ int main () {
 	int n;
 	cout << "Size if your array: ";
 	cin >> n;
-	int arr[n+1];
+	int arr[n];
 	cout << "Enter your array:" << endl;
 	for (int i = 0; i < n; i++) cin >> arr[i];  
 	cout << "Before sorting: " << endl;
