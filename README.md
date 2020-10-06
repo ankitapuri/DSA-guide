@@ -29,6 +29,14 @@ If this is your first time to open source contribution I have created this repo 
 - Make sure that there would be no repetitions on the same language
 
 
-### congratulation!
+### congratulations!
 You contributed to open source project & sit relax wait for review. Thank you.
 ### If you like this repo, drop a ⭐
+
+### Also stay connected for better projects in future.
+
+
+## REPOSITORY MAINTAINERS : 
+https://github.com/ankitapuri    
+
+https://github.com/ADARSHULTIMATE
