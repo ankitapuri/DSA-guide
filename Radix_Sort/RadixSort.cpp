@@ -64,9 +64,17 @@ void print(int arr[], int n)
 // Driver Code
 int main()
 {
-	int arr[] = { 170, 45, 75, 90, 802, 24, 2, 66 };
+	int arr[20], size;
+			
+			cout<<"Enter the length of the array"<<endl;
+			 
+			cin>>size;
+			
+			cout<<"Enter the elements in an array "<<endl;
+			
+			 for(int i = 0; i < size; i++ )
+			     cin>>arr[i];
 	int n = sizeof(arr) / sizeof(arr[0]);
-	
 	// Function Call
 	radixsort(arr, n);
 	print(arr, n);
