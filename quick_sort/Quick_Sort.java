@@ -1,5 +1,5 @@
 // Java program for implementation of QuickSort 
-class QuickSort 
+class Quick_Sort 
 { 
 	/* This function takes last element as pivot, 
 	places the pivot element at its correct 
