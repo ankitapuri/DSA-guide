@@ -27,7 +27,12 @@ void shellSort (int arr[], int n) {
 
 // driver code
 int main () {
-	int arr [7] = {3, 2, 7, 5, 11, 9, 13}; // array of size 7
+	int n;
+	cout << "Size if your array: ";
+	cin >> n;
+	int arr[n+1];
+	cout << "Enter your array:" << endl;
+	for (int i = 0; i < n; i++) cin >> arr[i];  
 	cout << "Before sorting: " << endl;
 	for (auto e : arr) cout << e << " ";
 	cout << endl;
