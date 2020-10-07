@@ -13,9 +13,10 @@ int main ()
 { 
     int n;
     cin>>n;
-    while(n>=0)
+    int i=1;
+    while(i<=n)
     {
-        cout << fibonacci(n--)<<" "; 
+        cout << fibonacci(i)<<"\n"; 
     }
     return 0; 
 } 
