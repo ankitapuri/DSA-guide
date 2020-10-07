@@ -1,6 +1,6 @@
 
 
-class Node
+Public class Node
 {
     int key;
     Node left = null, right = null;
@@ -10,7 +10,7 @@ class Node
     }
 }
  
-class Main
+Public class Main
 {
     // Recursive function to calculate height of given binary tree
    public static int findHeight(Node root) { 
