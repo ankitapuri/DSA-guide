@@ -1,7 +1,8 @@
 // A recursive C++ program to check whether a given number is 
 // palindrome or not 
+#include<bits/stdc++.h>
 #include <stdio.h> 
-
+using namespace std;
 // A function that reurns true only if num contains one digit 
 int oneDigit(int num) 
 { 
@@ -55,6 +56,6 @@ int main()
 	
 	int n;
 	cin>>n; 
-	isPal(n)? printf("Yesn"): printf("Non"); 
+	isPal(n)? printf("Yes\n"): printf("No\n"); 
 	return 0; 
 } 
