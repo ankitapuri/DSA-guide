@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-class SelectionSort {
+class selection_sort {
 	private static Scanner sc;
 
 	public static void main(String args[]) {
