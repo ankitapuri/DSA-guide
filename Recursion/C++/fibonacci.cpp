@@ -13,6 +13,9 @@ int main ()
 { 
     int n;
     cin>>n;
-    cout << fibonacci(n); 
+    while(n>=0)
+    {
+        cout << fibonacci(n--)<<" "; 
+    }
     return 0; 
 } 
