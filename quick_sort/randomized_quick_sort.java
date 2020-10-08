@@ -77,7 +77,7 @@ public class randomized_quick_sort
 		int arr[] = {12, 321, 45, 8, 2, 0}; 
 		int n = arr.length; 
 
-		Quick_Sort ob = new Quick_Sort(); 
+		randomized_quick_sort ob = new randomized_quick_sort(); 
 		ob.sort(arr, 0, n-1); 
 
 		System.out.println("sorted array"); 
