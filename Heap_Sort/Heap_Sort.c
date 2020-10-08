@@ -1,71 +1,56 @@
- //PROGRAM IN C TO IMPLEMENT THE HEAP SORT
+// C PROGRAM TO IMPLEMENT HEAP SORT
+
+#include <stdio.h>
+void main()
+{
+    int heap[100], no, i, j, c, r, temp;
  
-  #include <stdio.h>
-  // Function to swap the the position of two elements
-  void swap(int *a, int *b) 
-  {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-  }
-  
-  void heapify(int arr[], int n, int i) {
-    // Find largest among root, left child and right child
-    int largest = i;
-    int left = 2 * i + 1;
-    int right = 2 * i + 2;
-  
-    if (left < n && arr[left] > arr[largest])
-      largest = left;
-  
-    if (right < n && arr[right] > arr[largest])
-      largest = right;
-  
-    // Swap and continue heapifying
-    if (largest != i) 
+    printf("\n Enter no of elements :");
+    scanf("%d", &no);
+    printf("\n Enter the nos : ");
+    for (i = 0; i < no; i++)
+       scanf("%d", &heap[i]);
+    for (i = 1; i < no; i++)
     {
-      swap(&arr[i], &arr[largest]);
-      heapify(arr, n, largest);
+        c = i;
+        do
+        {
+            r = (c - 1) / 2;             
+            if (heap[r] < heap[c])
+            {
+                temp = heap[r];
+                heap[r] = heap[c];
+                heap[c] = temp;
+            }
+            c = r;
+        } while (c != 0);
     }
-  }
-  
-  // Main function for heap sort
-  void heapSort(int arr[], int n) 
-  {
-    // Build max heap
-    for (int i = n / 2 - 1; i >= 0; i--)
-      heapify(arr, n, i);
-  
-    // Heap sort
-    for (int i = n - 1; i >= 0; i--) 
+ 
+    printf("Heap array : ");
+    for (i = 0; i < no; i++)
+        printf("%d\t ", heap[i]);
+    for (j = no - 1; j >= 0; j--)
     {
-      swap(&arr[0], &arr[i]);
-  
-      // Heapify root
-      heapify(arr, i, 0);
-    }
-  }
-  
-  // Print the array sorted
-  void printArray(int arr[], int n) 
-  {
-    for (int i = 0; i < n; ++i)
-      printf("%d ", arr[i]);
-    printf("\n");
-  }
-  
-  // Driver code
-  int main() 
-  {
-    int n;
-    printf("Enter the number of elements to be sorted.\n");
-    scanf("%n",&n);
-    int arr[n];
-    printf("Enter the elements of the array.")
-    for(int i=0;i<n;i++)
-      scanf("%d",&arr[i]);
-    heapSort(arr, n);
-    printf("Sorted array is \n");
-    printArray(arr, n);
-    return 0;
-  }
+        temp = heap[0];
+        heap[0] = heap[j]; 
+        heap[j] = temp;
+        r = 0;
+        do 
+        {
+            c = 2 * r + 1;    
+            if ((heap[c] < heap[c + 1]) && c < j-1)
+                c++;
+            if (heap[r]<heap[c] && c<j)  
+            {
+                temp = heap[r];
+                heap[r] = heap[c];
+                heap[c] = temp;
+            }
+            r = c;
+        } while (c < j);
+    } 
+    printf("\n The sorted array is : ");
+    for (i = 0; i < no; i++)
+       printf("\t %d", heap[i]);
+}
+ 
