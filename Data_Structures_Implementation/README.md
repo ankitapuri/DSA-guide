@@ -2,4 +2,5 @@
 - Linked list
 - Stack using linked list
 - Queue
+- Graphs
 - Operations on BST
