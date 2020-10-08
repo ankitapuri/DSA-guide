@@ -30,13 +30,14 @@ void shell_sort(int array[], int size)
 
 int main()
 {
-    int array[30];
     int i,  size;
     
     //input array size
     printf("Enter total no. of array elements : ");
     scanf("%d", &size);
    
+    int array[size];
+    
     //input of the array
     printf("\nEnter the elements of the array: ");    
     for (i =  0 ; i < size; i++)
