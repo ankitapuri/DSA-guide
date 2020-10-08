@@ -2,20 +2,26 @@
 void shell_sort(int array[], int size)
 {
     int i, j, k, temp;
+
     for (i = size / 2; i > 0; i = i / 2)
     {
+        // Do a gapped insertion sort for this gap size(i). 
+        // The first gap elements a[0..i-1] are already in gapped order 
+        // keep adding one more element until the entire array is gap sorted  
         for (j = i; j < size; j++)
         {
-            for(k = j - i; k >= 0; k = k - i)
+            // add a[j] to the elements that have been gap sorted 
+            // save a[j] in temp and make space at position j
+            
+            temp = arrary[j]; 
+            
+            // shift earlier gap-sorted elements up until the correct location 
+            // for a[j] is found 
+            for(k = j; k >=i && array[k-i]>temp ; k = k - i)
             {
-                if (array[k+i] >= array[k])
-                    break;
-                else
-                {
-                    temp = array[k];
-                    array[k] = array[k+i];
-                    array[k+i] = temp;
-                }
+                    //  put temp (the original a[j]) in its correct location 
+                    array[k]=temp;
+
             }
         }
     }
@@ -40,7 +46,7 @@ int main()
     shell_sort(array, size);
     
     //sorted array
-    printf("\n Sorted array: ");
+    printf("\nSorted array: ");
     for (i = 0; i < size; i++)
         printf("%d ", array[i]);
         
