@@ -1,7 +1,7 @@
 #include <stdio.h>
 void shell_sort(int array[], int size)
 {
-    int i, j, k, temp;
+    int i,j,temp;
 
     for (i = size / 2; i > 0; i = i / 2)
     {
@@ -13,16 +13,17 @@ void shell_sort(int array[], int size)
             // add a[j] to the elements that have been gap sorted 
             // save a[j] in temp and make space at position j
             
-            temp = arrary[j]; 
+            temp = array[j]; 
             
             // shift earlier gap-sorted elements up until the correct location 
-            // for a[j] is found 
+            // for a[j] is found
+            int k;
             for(k = j; k >=i && array[k-i]>temp ; k = k - i)
-            {
-                    //  put temp (the original a[j]) in its correct location 
-                    array[k]=temp;
-
+            {     
+                array[k] = array[k - i]; 
             }
+            //  put temp (the original a[j]) in its correct location 
+            array[k]=temp;
         }
     }
 }
