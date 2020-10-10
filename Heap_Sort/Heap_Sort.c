@@ -25,10 +25,6 @@ void main()
             c = r;
         } while (c != 0);
     }
- 
-    printf("Heap array : ");
-    for (i = 0; i < no; i++)
-        printf("%d\t ", heap[i]);
     for (j = no - 1; j >= 0; j--)
     {
         temp = heap[0];
