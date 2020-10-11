@@ -1,5 +1,5 @@
 /*
-Author: immortal-j
+Author: MananOO12
 Implementation Details
 Quick sort 3 works on Dutch National Flag Algorithm
 The major diffrence between simple quicksort and quick sort 3 comes in the function quick_sort_partition3
