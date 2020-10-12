@@ -31,6 +31,7 @@ public class DiceRoll {
                 //backtrak:As we are using an array. We dont need remove the last added element. The index would itself take care of it.
             }
         }
+    }
          
     public static void Dice(int n) {
         int sol[] = new int[n];
