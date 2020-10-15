@@ -1,40 +1,48 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <algorithm>
+#include <cmath>
 
 using namespace std;
-int jumpSearch(int array[], int size, int key) {
-   int start = 0;
-   int end = sqrt(size); //the square root of array length
 
-   while(array[end] <= key && end < size) {
-      start = end; //it it is not correct block then shift block
-      end += sqrt(size);
-      if(end > size - 1)
-         end = size; //if right exceeds then bound the range
-   }
+int jumpSearch(int arr[], int n, int value)
+{
+    int i, right, left, jump = (int) sqrt(n);
 
-   for(int i = start; i<end; i++) { //perform linear search in selected block
-      if(array[i] == key)
-         return i; //the correct position of the key
-   }
-   return -1;
+    for (i = 0; i + jump < n && arr[i] < value; i += jump) {
+        // Keep jumping until value is between any two
+        // elements of the array or when i goes out of bound
+    }
+
+    if (value <= arr[i]) {
+        // right is i if search value is less than
+        // any jumped element in the array.
+        right = i;
+    } else {
+        // If not, right is last element
+        right = n;
+    }
+
+    left = max(right - jump, 0);    // ensuring left doesn't go negative
+
+    // Linear search backwards
+    while (right >= left) {
+        if (arr[right--] == value) {
+            return right + 1;
+        }
+    }
+
+    return -1;
 }
 
-int main() {
-   int n, searchKey, loc;
-   cout << "Enter total number of items: ";
-   cin >> n;
-   int arr[n]; //create an array of size n
-   cout << "Enter the items: " << endl;
+int main()
+{
+    int arr[] = {1, 3, 5, 7, 9, 11, 13, 15};
+    int n = sizeof(arr) / sizeof(int);
 
-   for(int i = 0; i< n; i++) {
-      cin >> arr[i];
-   }
+    cout << jumpSearch(arr, n, 0) << endl; // -1
+    cout << jumpSearch(arr, n, 3) << endl; // 1
+    cout << jumpSearch(arr, n, 11) << endl; // 5
+    cout << jumpSearch(arr, n, 16) << endl; // -1
 
-   cout << "Enter search key to search in the list: ";
-   cin >> searchKey;
-   if((loc = jumpSearch(arr, n, searchKey)) >= 0)
-      cout << "Key found at location: " << loc << endl;
-   else
-      cout << "Key is not found in the list." << endl;
+    return 0;
 }
