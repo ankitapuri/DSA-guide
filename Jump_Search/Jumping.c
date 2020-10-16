@@ -17,18 +17,20 @@ int main()
         scanf("%d",&ele);
         
         int flag=-99;
+        
+        //Instead of checking consecutive elements one by one, we jump elements by a distance of sqrt(n).
         int jmp=sqrt(n);
         int i=0,pos=jmp;
-        while(a[pos]<=ele && pos<n)
+        while(a[pos]<=ele && pos<n)      //We keep on jumping elements by a distance 'jmp' until the current array position becomes greater than the element to be searched.
         {
                 i=pos;
                 pos+=jmp;
                 if(pos>n-1)
                         flag=-1;
         } 
-        for(int j=i;j<pos;j++)
+        for(int j=i;j<pos;j++)       //Now we iterate from the last position 'i' where the a[i] <= ele, and iterate jmp(=sqrt(n) times in worst case. 
         {
-                if(a[j]==ele)
+                if(a[j]==ele)           // If element is found we store in the variable flag, the final answer of the position where its found.
                         flag=j;
         }
         
