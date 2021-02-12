@@ -1,5 +1,5 @@
 ## DSA-guide
-If this is your first time to open source contribution I have created this repo for all the you to start contributing.
+A place where you can practice and learn various data structures . 
 
 
 ## Steps to contribute
