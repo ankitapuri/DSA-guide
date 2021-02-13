@@ -13,11 +13,11 @@ Algorithm:
 using namespace std;
 
 void generatePermutation(vector<int> &num, int start, vector<vector<int> > &result) {
-    if (start == num.size() - 1) {
+    if (start == num.size() - 1) {                                  //TODO: Base statement of the recursion
         result.push_back(num);
         return;
     }
-    for (int i = start; i < num.size(); i++) {
+    for (int i = start; i < num.size(); i++) {                      //TODO: Recursive statements
         swap(num[start], num[i]);
         generatePermutation(num, start + 1, result);
         swap(num[start], num[i]);
@@ -27,7 +27,7 @@ void generatePermutation(vector<int> &num, int start, vector<vector<int> > &resu
 int main() {
     ios_base::sync_with_stdio(false);
     int n;
-    cin >> n;
+    cin >> n;                                                      //TODO: Taking user inputs
     vector<int> numbers(n, 0);
     for (int i = 0; i < n; i++) {
         cin >> numbers[i];
@@ -35,7 +35,7 @@ int main() {
     sort(numbers.begin(),numbers.end());
     vector<vector<int>> solution;
     generatePermutation(numbers,0,solution);
-    for (auto &i : solution) {
+    for (auto &i : solution) {                                     //TODO: Printing result
         for (int j : i) {
             cout << j << " ";
         }
