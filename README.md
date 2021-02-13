@@ -26,7 +26,7 @@ A place where you can practice and learn various data structures .
 
 ## Contributing  
 This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcome!  
-Don't forget to follow [Contribution Guidelines](.github/contributing.md) 😃  
+Don't forget to follow [Contribution Guidelines](contributing.md) 😃  
 
 ## Used Languages
 * C
