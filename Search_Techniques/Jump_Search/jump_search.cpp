@@ -30,7 +30,7 @@ int main() {
    cout << "\n Enter items: ";
 
    for(int i = 0; i< n; i++) {
-      cin >> arr[i];
+      cin >> arr[i];                      // it just works for sorted arrays
    }
 
    cout << "\n Enter search key to be found in the array: ";
