@@ -16,9 +16,14 @@ The array is divided into sub-arrays and then insertion sort is applied. The alg
 
 Note: This algorithm will sort in ascending order.
 
-<b>Time Complexity:</b> Time complexity of above implementation of shellsort is O(n2). 
- In the above implementation gap is reduce by half in every iteration. 
- There are many other ways to reduce gap which lead to better time complexity 
- 
+<b>Time Complexity:</b> 
+### Worst Case Complexity: less than or equal to O(n2)
+    Worst case complexity for shell sort is always less than or equal to O(n2).
+    According to Poonen Theorem, worst case complexity for shell sort is Θ(Nlog N)2/(log log N)2) or Θ(Nlog N)2/log log N) or Θ(N(log N)2) or something in between.
+### Best Case Complexity: O(n*log n)
+    When the array is already sorted, the total number of comparisons for each interval (or increment) is equal to the size of the array.
+### Average Case Complexity: O(n*log n)
+    It is around O(n1.25).
+    
 <b>References:</b>
 https://en.wikipedia.org/wiki/Shellsort
