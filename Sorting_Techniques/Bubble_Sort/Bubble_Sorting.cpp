@@ -1,16 +1,16 @@
-// C++ program for implementation of Bubble sort  ]
+//TODO: Program for Bubble sort
+
 #include<iostream>
 #include <bits/stdc++.h> 
 using namespace std; 
-void swap(int *xp, int *yp)  
+void swap(int *xp, int *yp)                 //TODO: Swapping input
 {  
     int temp = *xp;  
     *xp = *yp;  
     *yp = temp;  
 }  
-  
-// A function to implement bubble sort  
-void bubbleSort(int arr[], int n)  
+              
+void bubbleSort(int arr[], int n)           //TODO: Implement bubble sort  
 {  
     int i, j;  
     for (i = 0; i < n-1; i++)      
@@ -21,17 +21,15 @@ void bubbleSort(int arr[], int n)
             swap(&arr[j], &arr[j+1]);  
 }  
   
-/* Function to print an array */
-void printArray(int arr[], int size)  
+void printArray(int arr[], int size)        //TODO: Print the array
 {  
     int i;  
     for (i = 0; i < size; i++)  
         cout << arr[i] << " ";  
     cout << endl;  
 }  
-  
-// Driver code  
-int main()  
+   
+int main()                                  //TODO: Driver code 
 {  
     int n;
 	cout<<"Enter the number of elements to be stored in array"<<endl; 
@@ -43,7 +41,7 @@ int main()
 	}
 	cout<<"Original array: \n"; 
 	printArray(ar, n);  
-    bubbleSort(ar, n);  
+    bubbleSort(ar, n);                      //TODO: Calling Bubble Sort Function
     cout<<"Sorted array: \n";  
     printArray(ar, n);  
     return 0;  
