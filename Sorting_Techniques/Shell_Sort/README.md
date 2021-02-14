@@ -16,7 +16,7 @@ The array is divided into sub-arrays and then insertion sort is applied. The alg
 
 Note: This algorithm will sort in ascending order.
 
-<b>Time Complexity:</b> 
+## <b>Time Complexity:</b> 
 ### Worst Case Complexity: less than or equal to O(n2)
     Worst case complexity for shell sort is always less than or equal to O(n2).
     According to Poonen Theorem, worst case complexity for shell sort is Θ(Nlog N)2/(log log N)2) or Θ(Nlog N)2/log log N) or Θ(N(log N)2) or something in between.
@@ -25,5 +25,7 @@ Note: This algorithm will sort in ascending order.
 ### Average Case Complexity: O(n*log n)
     It is around O(n1.25).
     
-<b>References:</b>
-https://en.wikipedia.org/wiki/Shellsort
+
+
+## Visualisation
+![Shell Sort GIF](https://upload.wikimedia.org/wikipedia/commons/d/d8/Sorting_shellsort_anim.gif)
