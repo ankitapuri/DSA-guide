@@ -31,6 +31,7 @@ int main() {
    cout << "Enter number of items: "; // number of elements where search has to be made
    cin >> n;
    int arr[n]; //create an array of size n
+   cout << "Please enter the elements in sorted order." << endl;
    cout << "Enter items: " << endl; //input the elements of the array
    for(int i = 0; i< n; i++) {
       cin >> arr[i];
