@@ -16,20 +16,24 @@ function jumpSearch(Searcharray, Searchvalue){
   {
     lowerBound = step;
     step += step;
+    //Searchvalue not present in list
     if (lowerBound >= length){
       return -1;
     }
   }
   
   var upperBound = Math.min(step, length);
+  //linear search through block for Searchvalue
   while (Searcharray[lowerBound] < Searchvalue)
   {
     lowerBound++;
-    if (lowerBound == upperBound){
+    //Searchvalue not present in list
+    if (lowerBound === upperBound){
       return -1;
     }
   }
-  if (Searcharray[lowerBound] == Searchvalue){
+  //Searchvalue is present at position lowerBound
+  if (Searcharray[lowerBound] === Searchvalue){
      return lowerBound;
   }
   return -1;
