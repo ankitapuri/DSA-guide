@@ -28,17 +28,17 @@ int exponentialSearch(int array[], int start, int end, int key){
 
 int main() {
    int n, searchKey, loc;
-   cout << "Enter number of items: ";
+   cout << "Enter number of items: "; // number of elements where search has to be made
    cin >> n;
    int arr[n]; //create an array of size n
-   cout << "Enter items: " << endl;
+   cout << "Enter items: " << endl; //input the elements of the array
    for(int i = 0; i< n; i++) {
       cin >> arr[i];
    }
-   cout << "Enter search key to search in the list: ";
+   cout << "Enter search key to search in the list: "; // enter the element that needs to be searched
    cin >> searchKey;
-   if((loc = exponentialSearch(arr, 0, n, searchKey)) >= 0)
-      cout << "Item found at location: " << loc << endl;
+   if((loc = exponentialSearch(arr, 0, n, searchKey)) >= 0) 
+      cout << "Item found at location: " << loc << endl; //Element found
    else
-      cout << "Item is not found in the list." << endl;
+      cout << "Item is not found in the list." << endl; // Element not found
 }
