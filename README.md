@@ -33,3 +33,9 @@ Don't forget to follow [Contribution Guidelines](contributing.md) 😃
 * C++
 * Python 
 * JavaScript
+
+[![GitHub issues](https://img.shields.io/github/issues/ankitapuri/DSA-guide.svg)](https://github.com/ankitapuri/DSA-guide/issues)
+[![GitHub issues closed](https://img.shields.io/github/issues-closed/avinashkranjan/Amazing-Python-Scripts.svg)](https://github.com/avinashkranjan/Amazing-Python-Scripts/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/avinashkranjan/Amazing-Python-Scripts.svg)](https://github.com/avinashkranjan/Amazing-Python-Scripts/pulls)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/avinashkranjan/Amazing-Python-Scripts.svg)](https://github.com/avinashkranjan/Amazing-Python-Scripts/pulls?q=is%3Apr+is%3Aclosed) ![GitHub repo size](https://img.shields.io/github/repo-size/avinashkranjan/Amazing-Python-Scripts?color=yellow)
+
