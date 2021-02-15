@@ -1,5 +1,6 @@
+# Counting Sort
 Counting sort is a sorting technique based on keys between a specific range. It works by counting the number of objects having distinct key values (kind of hashing). Then doing some arithmetic to calculate the position of each object in the output sequence.
-
+```
 Let's consider an example for better understanding 
 Input data: 1, 4, 1, 2, 7, 5, 2
 
@@ -20,4 +21,4 @@ the output sequence.)
   Process the input data: 1, 4, 1, 2, 7, 5, 2. Position of 1 is 2.
   Put data 1 at index 2 in output. Decrease count by 1 to place 
   next data 1 at an index 1 smaller than this index.
-
+```
