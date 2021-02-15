@@ -40,3 +40,7 @@ Don't forget to follow [Contribution Guidelines](contributing.md) 😃
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/ankitapuri/DSA-guide.svg)](https://github.com/ankitapuri/DSA-guide/pulls?q=is%3Apr+is%3Aclosed) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ankitapuri/DSA-guide?color=yellow)
 
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
