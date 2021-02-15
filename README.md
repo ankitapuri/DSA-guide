@@ -34,7 +34,7 @@ Don't forget to follow [Contribution Guidelines](contributing.md) 😃
 * Python 
 * JavaScript
 
-![DSA-guide](https://socialify.git.ci/ankitapuri/DSA-guide/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fuser-images.githubusercontent.com%2F55796944%2F104455539-7258a200-55cd-11eb-90dc-7c9981e73d72.png&owner=1&pulls=1&stargazers=1&theme=Light)
+![DSA-guide](https://socialify.git.ci/ankitapuri/DSA-guide/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
 
 
 [![GitHub issues](https://img.shields.io/github/issues/ankitapuri/DSA-guide.svg)](https://github.com/ankitapuri/DSA-guide/issues)
