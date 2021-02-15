@@ -34,6 +34,9 @@ Don't forget to follow [Contribution Guidelines](contributing.md) 😃
 * Python 
 * JavaScript
 
+![DSA-guide](https://socialify.git.ci/ankitapuri/DSA-guide/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fuser-images.githubusercontent.com%2F55796944%2F104455539-7258a200-55cd-11eb-90dc-7c9981e73d72.png&owner=1&pulls=1&stargazers=1&theme=Light)
+
+
 [![GitHub issues](https://img.shields.io/github/issues/ankitapuri/DSA-guide.svg)](https://github.com/ankitapuri/DSA-guide/issues)
 [![GitHub issues closed](https://img.shields.io/github/issues-closed/ankitapuri/DSA-guide.svg)](https://github.com/ankitapuri/DSA-guide/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/ankitapuri/DSA-guide.svg)](https://github.com/ankitapuri/DSA-guide/pulls)
@@ -43,4 +46,3 @@ Don't forget to follow [Contribution Guidelines](contributing.md) 😃
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-programming languages.svg)](https://forthebadge.com)
