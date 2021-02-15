@@ -34,6 +34,14 @@ Don't forget to follow [Contribution Guidelines](contributing.md) 😃
 * Python 
 * JavaScript
 
+ [![Followers](https://img.shields.io/github/followers/ankitapuri?style=for-the-badge)](https://github.com/ankitapuri/followers)
+ ![GitHub forks](https://img.shields.io/github/forks/ankitapuri/DSA-guide?style=for-the-badge)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/ankitapuri/DSA-guide?style=for-the-badge)
+ [![Watchers](https://img.shields.io/github/watchers/ankitapuri/DSA-guide?style=for-the-badge)](https://github.com/ankitapuri/DSA-guide/watchers)
+ ![Lines of code](https://img.shields.io/tokei/lines/github/ankitapuri/DSA-guide?style=for-the-badge)
+ <br><br>
+
+
 ![DSA-guide](https://socialify.git.ci/ankitapuri/DSA-guide/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
 
 
