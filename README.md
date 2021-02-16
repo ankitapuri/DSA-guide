@@ -1,6 +1,5 @@
-## DSA-guide
-A place where you can practice and learn various data structures . 
-
+![DSA-guide](https://socialify.git.ci/ankitapuri/DSA-guide/image?description=1&descriptionEditable=A%20place%20where%20you%20can%20practice%20%20and%20learn.&font=Bitter&forks=1&issues=1&language=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Light)
+<br>
 
 ## Steps to contribute
 -  Fork the [repository](https://github.com/ankitapuri/DSA-guide)
@@ -23,8 +22,11 @@ A place where you can practice and learn various data structures .
    - Create pull requests
      - [Try to Mention the related issue for your PR]
 
+<div>
+<img src="https://crosswoc.ieeedtu.in/images/imgcw.png" alt = "CrossWoC'21"/>
+</div>
 
-## Contributing  
+## Contributing 
 This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcome!  
 Don't forget to follow [Contribution Guidelines](contributing.md) 😃  
 
