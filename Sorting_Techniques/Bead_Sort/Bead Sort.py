@@ -6,7 +6,6 @@ def beadsort(input_list):
         transposed_list[:num] = [n + 1 for n in transposed_list[:num]] #TODO: Drop the beads. To de-transpose
 
     for _ in input_list:
-         is how we tell how many beads are in the
         return_list.append(sum(n > 0 for n in transposed_list))        #TODO: Counting values > 0; True == 1 and False == 0.
         transposed_list = [n - 1 for n in transposed_list]             #TODO: Remove the 'bottommost row' by subtracting 1 from each element.
 
