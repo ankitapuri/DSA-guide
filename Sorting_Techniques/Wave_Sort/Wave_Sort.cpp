@@ -32,7 +32,7 @@ int main()
     cout<<"Enter limit";
     cin>>l;
     int arr[l];
-    cout<<"Enter elements"
+    cout<<"Enter elements";
     for(int i=0;i<l;i++){
         cin>>arr[i];
     }
