@@ -133,6 +133,19 @@
    <td>100</td>
 </tr>
 <tr>
+<td>ShudhanshuSingh</td>
+<td> <a href='https://github.com/ShudhanshuSingh'>ShudhanshuSingh</a></td>
+   <td> </td>
+   <td>
+   <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/224'>#224</a></li>
+   </ul>
+   </td>
+   <td></td>
+   <td></td>
+   <td>100</td>
+</tr>
+<tr>
 <td>Radhika</td>
 <td> <a href='https://github.com/96RadhikaJadhav'>96RadhikaJadhav</a></td>
    <td>
@@ -151,6 +164,19 @@
    <td>
    <ul>
    <li><a href='https://github.com/ankitapuri/DSA-guide/pull/199'>#199</a></li>
+   </ul>
+   </td>
+   <td> </td>
+   <td></td>
+   <td></td>
+   <td>50</td>
+</tr>
+<tr>
+<td>hardik chitkara</td>
+<td> <a href='https://github.com/hardikchitkara'>hardikchitkara</a></td>
+   <td>
+   <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/212'>#212</a></li>
    </ul>
    </td>
    <td> </td>
