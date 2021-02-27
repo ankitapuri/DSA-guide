@@ -184,5 +184,18 @@
    <td></td>
    <td>50</td>
 </tr>
+<tr>
+<td>Kirubanand R</td>
+<td> <a href='https://github.com/kiruba-r11'>kiruba-r11</a></td>
+   <td>
+   <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/235'>#235</a></li>
+   </ul>
+   </td>
+   <td> </td>
+   <td></td>
+   <td></td>
+   <td>50</td>
+</tr>
 
 </table>
