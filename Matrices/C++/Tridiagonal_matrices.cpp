@@ -1,6 +1,7 @@
 
 //C++ program for Tridiagonal matrix
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
 int main()
@@ -26,7 +27,7 @@ int main()
   for(i=0;i<num;i++)
    {
      cout<<"Enter element "<<i+1<<" : "<<endl;
-     cin>>matrix[i];
+     cin>>mat[i];
    }
 
   //printing matrix
