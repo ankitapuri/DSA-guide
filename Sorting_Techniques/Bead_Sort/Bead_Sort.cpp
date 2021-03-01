@@ -93,9 +93,4 @@ Output:
 After sorting
 2 3 4 6 8
 
-Time Complexities:
-Bead sort can be implemented with four general levels of complexity, among others:
-O(n): in best case
-O(S): in worst case, where S is the sum of all beads
-
 */
