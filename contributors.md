@@ -103,6 +103,20 @@
    <td>200</td>
 </tr>
 <tr>
+<td>noviicee</td>
+<td> <a href='https://github.com/noviicee'>noviicee</a></td>
+   <td>         
+   </td>
+   <td></td>
+   <td>
+   <ul>
+     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/240'>#240</a></li>
+   </ul>
+   </td>
+   <td></td>
+   <td>200</td>
+</tr>
+<tr>
 <td>Gopichandpuli</td>
 <td> <a href='https://github.com/gopichandpuli9'>gopichandpuli9</a></td>
    <td>   
