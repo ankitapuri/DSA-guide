@@ -4,6 +4,23 @@
 
 <table>
 <tr><th>Name</th><th>Github</th><th>Good First Issue (50) </th><th>Easy (100)</th><th>Medium (200)</th><th>Hard (500)</th><th>Total</th><tr>
+   <tr>
+<td>hardik chitkara</td>
+<td> <a href='https://github.com/hardikchitkara'>hardikchitkara</a></td>
+   <td>
+   <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/212'>#212</a></li>
+   </ul>
+   </td>
+   <td> </td>
+   <td></td>
+   <td>
+      <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/245'>#245</a></li>
+   </ul>
+      </td>
+   <td>550</td>
+</tr>
 <tr>
    <td>Yashasvi</td>
    <td><a href='https://github.com/kmryashasvi'>kmryashasvi</a></td>
@@ -216,19 +233,7 @@
    <td></td>
    <td>50</td>
 </tr>
-<tr>
-<td>hardik chitkara</td>
-<td> <a href='https://github.com/hardikchitkara'>hardikchitkara</a></td>
-   <td>
-   <ul>
-   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/212'>#212</a></li>
-   </ul>
-   </td>
-   <td> </td>
-   <td></td>
-   <td></td>
-   <td>50</td>
-</tr>
+
 
 
 </table>
