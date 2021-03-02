@@ -1,91 +1,61 @@
 # Title: Sudoku Solver
 # Link: https://leetcode.com/problems/sudoku-solver/
 
-from typing import List
 from collections import defaultdict
+
+
 class Solution:
-    def solveSudoku(self,board: List[List[int]])-> None:
-        # check if the current number can be placed in the current row
-        # col or cell
-        def could_place(d, row, col):
-            return not (d in rows[row] or d in columns[col] or d in boxes[box_index(row,col)])
+    def solveSudoku(self, board: List[List[str]]) -> None:
+        # Initialize rows ,columns,cells set as dictionary set
+        row_sets, col_sets, cell_sets = defaultdict(set), defaultdict(
+            set), defaultdict(set)
+        
+        # Retrieve col & num of cell choosen
+        def get_cell_num(row, col):
+            return (row // 3) * 3 + col // 3
 
-        # place number d in (row,col) cell
-        def place_number(d,row,col):
-            rows[row][d] += 1
-            columns[col][d] += 1
-            boxes[box_index(row,col)][d] += 1
-            board[row][col] = str(d)
+        to_fill = [] 
+        # add rows and columns in list to use it as a board 
 
-        # remove number d in (row,col) cell
-        def remove_number(d,row,col):
-            del rows[row][d]
-            del columns[col][d]
-            del boxes[box_index(row,col)][d]
-            board[row][col] = '.'
-
-        # call backtrack function in recursion to continue to place numbers
-        # till the moment we have a solution
-        def place_next_numbers(row,col):
-            # if we are in the last cell we have a solution
-            if col == N - 1 and row == N -1:
-                nonlocal sudoku_solved
-                sudoku_solved = True
-            # if not yet solved
-            else:
-                # if we are at the end of the row go to next row
-                if col == N-1:
-                    backtrack(row + 1,0)
-                # go to next column
+        for r in range(9):
+            for c in range(9):
+                # When non empty cells 
+                if board[r][c] != ".":
+                    row_sets[r].add(board[r][c])
+                    col_sets[c].add(board[r][c])
+                    cell_sets[get_cell_num(r, c)].add(board[r][c])
                 else:
-                    backtrack(row,col + 1)
+                    # When cell is empty
+                    to_fill.append((r, c))
 
-        def backtrack(row = 0, col = 0):
-            if board[row][col] == '.':
-                # iterate over all numbers 1-9
-                for d in range(1,10):
-                    if could_place(d,row,col):
-                        place_number(d,row,col)
-                        place_next_numbers(row,col)
-                        # if solved there is no need to backtrack
-                        # since the single unique solution is is promised
-                        if not sudoku_solved:
-                            remove_number(d,row,col)
-            else:
-                place_next_numbers(row,col)
-        # box size
-        n = 3
-        # row size
-        N = n * n
-        # function to compute box index
-        box_index = lambda row,col: (row//n) * n  + col//n
+        def dfs(idx, board):
+            # Check that if we traverse through all the cells  
+            if idx == len(to_fill):
+                return True
+            # Get row number,column number and cell number
+            row, col = to_fill[idx]
+            cell_num = get_cell_num(row, col)
+            for ch in "123456789":
+                if ch in row_sets[row] or ch in col_sets[
+                        col] or ch in cell_sets[cell_num]:
+                    continue
+             
+                # Add numbers in the box if we find all numbers of box correctly 
+                board[row][col] = ch
+                row_sets[row].add(ch)
+                col_sets[col].add(ch)
+                cell_sets[cell_num].add(ch)
 
-        # initialize rows
-        rows = [defaultdict(int)for i in range(N)]
-        columns = [defaultdict(int) for i in range(N)]
-        boxes = [defaultdict(int) for i in range(N)]
-        print(rows)
-        for i in range(N):
-            for j in range(N):
-                if board[i][j] != '.':
-                    d = int(board[i][j])
-                    place_number(d,i,j)
-        sudoku_solved = False
-        backtrack()
-        print(rows)
+                 # call backtrack function in recursion to continue to place numbers
+                if dfs(idx + 1, board):
+                    return True
+                                
+                # Remove numbers in the box if we find any number in box wrong 
+                board[row][col] = '.'
+                row_sets[row].remove(ch)
+                col_sets[col].remove(ch)
+                cell_sets[cell_num].remove(ch)
 
-
-if __name__ =="__main__":
-    mySolution = Solution()
-    board = [
-        ["5","3",".",".","7",".",".",".","."],
-        ["6",".",".","1","9","5",".",".","."],
-        [".","9","8",".",".",".",".","6","."],
-        ["8",".",".",".","6",".",".",".","3"],
-        ["4",".",".","8",".","3",".",".","1"],
-        ["7",".",".",".","2",".",".",".","6"],
-        [".","6",".",".",".",".","2","8","."],
-        [".",".",".","4","1","9",".",".","5"],
-        [".",".",".",".","8",".",".","7","9"]]
-    mySolution.solveSudoku(board)
-    print(board)
+       #Start program at zero index and board input
+        dfs(0, board)
+        return board
