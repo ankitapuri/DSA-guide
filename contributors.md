@@ -62,7 +62,24 @@
    <td></td>
    <td>350</td>
 </tr>
-
+<tr>
+<td>Amit Kumar Mishra</td>
+<td> <a href='https://github.com/Amit366'>Amit366</a></td>
+   <td>         
+   </td>
+   <td>
+       <ul>
+     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/206'>#206</a></li>
+   </ul>
+   </td>
+   <td>
+   <ul>
+     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/169'>#169</a></li>
+   </ul>
+   </td>
+   <td></td>
+   <td>300</td>
+</tr>
 <tr>
    <td>Achyut Kumar Panda </td>
    <td> <a href='https://github.com/Sloth-Panda'>Sloth-Panda</a></td>
@@ -77,20 +94,7 @@
    <td></td>
    <td>200</td>
 </tr>
-<tr>
-<td>Amit Kumar Mishra</td>
-<td> <a href='https://github.com/Amit366'>Amit366</a></td>
-   <td>         
-   </td>
-   <td></td>
-   <td>
-   <ul>
-     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/169'>#169</a></li>
-   </ul>
-   </td>
-   <td></td>
-   <td>200</td>
-</tr>
+
 <tr>
 <td>Ayush kumar</td>
 <td> <a href='https://github.com/Ayush7614'>Ayush7614</a></td>
