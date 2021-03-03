@@ -48,4 +48,15 @@ main()
 Complexity of Algorithm - O(log n)
 
 n - the position where the element lies or is supposed to lie
+
+Test Case
+
+```
+Enter List [Whitespace separated]
+5 8 13 2 98 1 6
+Enter Target
+13
+Sorted list: [1, 2, 5, 6, 8, 13, 98]
+Found at Index 5
+```
 """
