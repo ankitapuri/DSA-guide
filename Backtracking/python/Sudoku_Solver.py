@@ -1,6 +1,7 @@
 # Title: Sudoku Solver
 # Link: https://leetcode.com/problems/sudoku-solver/
 
+from typing import List
 from collections import defaultdict
 
 
