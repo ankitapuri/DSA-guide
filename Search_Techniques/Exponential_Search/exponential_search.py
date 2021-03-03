@@ -35,8 +35,8 @@ def main():
     Main driver
     """
     search_list = list(map(int,
-                           input("Enter List [Whitespace separated]\n").split()))
-    search_value = int(input("Enter Target\n"))
+                           input("Enter List [Whitespace separated]:\n").split()))
+    search_value = int(input("Enter Target:\n"))
 
     print("Sorted list:", sorted(search_list))
     print(exponential_search(sorted(search_list), 0, len(search_list) - 1, search_value))
