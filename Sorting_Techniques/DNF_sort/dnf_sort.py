@@ -14,8 +14,14 @@ def dnf_sort( a):
             a[mid], a[end] = a[end], a[mid]  
             end = end - 1
     return a 
-#output of the given array    
-arr = [0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1]
+#output of the given array 
+num=int(input("enter number of elements"))
+arr=[]
+print("enter the numbers")
+for i in range(0,num):
+    k=int(input())
+    arr.append(k)
+
 arr = dnf_sort( arr) 
 print ("output:")
 for p in arr: 
