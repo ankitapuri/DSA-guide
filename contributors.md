@@ -81,6 +81,24 @@
    <td>300</td>
 </tr>
 <tr>
+<td>Kirubanand R</td>
+<td> <a href='https://github.com/kiruba-r11'>kiruba-r11</a></td>
+   <td>
+   <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/235'>#235</a></li>
+   </ul>
+   </td>
+   <td> 
+       <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/237'>#237</a></li>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/241'>#241</a></li>       
+   </ul>
+   </td>
+   <td></td>
+   <td></td>
+   <td>250</td>
+</tr>
+<tr>
    <td>Achyut Kumar Panda </td>
    <td> <a href='https://github.com/Sloth-Panda'>Sloth-Panda</a></td>
    <td>         
@@ -168,23 +186,7 @@
    <td></td>
    <td>150</td>
 </tr>
-<tr>
-<td>Kirubanand R</td>
-<td> <a href='https://github.com/kiruba-r11'>kiruba-r11</a></td>
-   <td>
-   <ul>
-   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/235'>#235</a></li>
-   </ul>
-   </td>
-   <td> 
-       <ul>
-   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/237'>#237</a></li>
-   </ul>
-   </td>
-   <td></td>
-   <td></td>
-   <td>150</td>
-</tr>
+
 <tr>
 <td>Deepak Verma</td>
 <td> <a href='https://github.com/deeqakkk'>deeqakkk</a></td>
