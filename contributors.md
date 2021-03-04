@@ -13,13 +13,17 @@
    </ul>
    </td>
    <td> </td>
-   <td></td>
+   <td>
+      <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/246'>#246</a></li>
+   </ul>
+      </td>
    <td>
       <ul>
    <li><a href='https://github.com/ankitapuri/DSA-guide/pull/245'>#245</a></li>
    </ul>
       </td>
-   <td>550</td>
+   <td>750</td>
 </tr>
 <tr>
    <td>Yashasvi</td>
