@@ -17,17 +17,18 @@ int main(void)
     }
     for (int p = 0; p<n; p++)
     {
-        if(p==0 && arr[1]>arr[0])                                    // Checking if the first element is a local minima
-        {
+        if(p==0 && arr[1]>arr[0])                                    // Checking if the first element is a local minima (if second element is greater than the first one
+        {                                                                                                                                  // then it is the local minima
             printf("Entry number 1 is a local minima.\n");
         }
         else if(p==(n-1) && arr[n-2]>arr[n-1])
         {
-            printf("Entry number %d is a local minima.\n",n);         // Checking if the last element is a local minima
-        }
+            printf("Entry number %d is a local minima.\n",n);         // Checking if the last element is a local minima (if last element is smaller than the second last
+        }                                                                                                                    // element, then it is called local minima
         else if(arr[p]<arr[p-1] && arr[p]<arr[p+1])
         {
-            printf("Entry number %d is a local minima.\n",p+1);       // Checking every element for minima
+            printf("Entry number %d is a local minima.\n",p+1);       // Checking every element for minima  (if an element is smaller than both its surrounding elements
+                                                                                                                                   // then it is called local minima
         }
         
         
