@@ -1,38 +1,61 @@
 /*  INTERPOLATION SEARCH */
 
-#include<iostream>
+// C++ program to implement interpolation search
+#include<bits/stdc++.h>
 using namespace std;
-int interpolationSearch(int array[], int start, int end, int key) {
-   int dist, valRange, indexRange, estimate;
-   float fraction;
-   while(start <= end && key >= array[start] && key <= array[end]) {
-      dist = key - array[start];
-      valRange = array[end] - array[start];     //range of value
-      fraction = dist / valRange;
-      indexRange = end - start;
-      estimate = start + (fraction * indexRange);      //estimated position of the key
-      if(array[estimate] == key)
-         return estimate;
-      if(array[estimate] < key)
-         start = estimate +1;
-      else
-         end = estimate - 1;
-   }
-   return -1;
+
+// If x is present in arr[0..n-1], then returns
+// index of it, else returns -1.
+int interpolationSearch(int arr[], int n, int x)
+{
+	// Find indexes of two corners
+	int lo = 0, hi = (n - 1);
+
+	// Since array is sorted, an element present
+	// in array must be in range defined by corner
+	while (lo <= hi && x >= arr[lo] && x <= arr[hi])
+	{
+		if (lo == hi)
+		{
+			if (arr[lo] == x) return lo;
+			return -1;
+		}
+		// Probing the position with keeping
+		// uniform distribution in mind.
+		int pos = lo + (((double)(hi - lo) /
+			(arr[hi] - arr[lo])) * (x - arr[lo]));
+
+		// Condition of target found
+		if (arr[pos] == x)
+			return pos;
+
+		// If x is larger, x is in upper part
+		if (arr[pos] < x)
+			lo = pos + 1;
+
+		// If x is smaller, x is in the lower part
+		else
+			hi = pos - 1;
+	}
+	return -1;
 }
-int main() {
-   int n, searchKey, loc;
-   cout << "Enter number of items: ";
-   cin >> n;
-   int arr[n];      //create an array of size n
-   cout << "Enter items: " << endl;
-   for(int i = 0; i< n; i++) {
-      cin >> arr[i];
-   }
-   cout << "Enter search key to search in the list: ";
-   cin >> searchKey;
-   if((loc = interpolationSearch(arr, 0, n-1, searchKey)) >= 0)
-      cout << "Item found at location: " << loc << endl;
-   else
-      cout << "Item is not found in the list." << endl;
+
+// Driver Code
+int main()
+{
+	// Array of items on which search will
+	// be conducted.
+	int arr[] = {10, 12, 13, 16, 18, 19, 20, 21,
+				22, 23, 24, 33, 35, 42, 47};
+	int n = sizeof(arr)/sizeof(arr[0]);
+
+	int x = 18; // Element to be searched
+	int index = interpolationSearch(arr, n, x);
+
+	// If element was found
+	if (index != -1)
+		cout << "Element found at index " << index;
+	else
+		cout << "Element not found.";
+	return 0;
 }
