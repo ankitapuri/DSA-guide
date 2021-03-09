@@ -86,6 +86,22 @@
    <td>450</td>
 </tr>
 <tr>
+<td>Ayush kumar</td>
+<td> <a href='https://github.com/Ayush7614'>Ayush7614</a></td>
+   <td>         
+   </td>
+   <td></td>
+   <td>
+   <ul>
+     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/205'>#205</a></li>
+      <li><a href='https://github.com/ankitapuri/DSA-guide/pull/191'>#191</a></li>
+   </ul>
+   </td>
+   <td></td>
+   <td>400</td>
+
+<tr>
+<tr>
    <td>Rakesh </td>
    <td><a href='https://github.com/deephunt3r'>deephunt3r</a></td>
    <td>
@@ -140,35 +156,7 @@
    <td>200</td>
 </tr>
 
-<tr>
-<td>Ayush kumar</td>
-<td> <a href='https://github.com/Ayush7614'>Ayush7614</a></td>
-   <td>         
-   </td>
-   <td></td>
-   <td>
-   <ul>
-     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/205'>#205</a></li>
-   </ul>
-   </td>
-   <td></td>
-   <td>200</td>
-</tr>
-<tr>
-<td>Ayush kumar</td>
-<td> <a href='https://github.com/Ayush7614'>Ayush7614</a></td>
-   <td>         
-   </td>
-   <td></td>
-   <td>
-   <ul>
-     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/191'>#191</a></li>
-   </ul>
-   </td>
-   <td></td>
-   <td>200</td>
-</tr>
-<tr>
+
 <td>noviicee</td>
 <td> <a href='https://github.com/noviicee'>noviicee</a></td>
    <td>         
