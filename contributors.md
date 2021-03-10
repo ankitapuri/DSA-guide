@@ -25,6 +25,29 @@
       </td>
    <td>750</td>
 </tr>
+   <tr>
+<td>Kirubanand R</td>
+<td> <a href='https://github.com/kiruba-r11'>kiruba-r11</a></td>
+   <td>
+   <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/235'>#235</a></li>
+   </ul>
+   </td>
+   <td> 
+       <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/237'>#237</a></li>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/241'>#241</a></li>       
+   </ul>
+   </td>
+   <td>
+       <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/255'>#255</a></li>  
+     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/263'>#263</a></li>       
+   </ul>
+      </td>
+   <td></td>
+   <td>650</td>
+</tr>
     <tr>
        <tr>
    <td>Yashasvi</td>
@@ -61,29 +84,6 @@
    </ul>
       </td>
    <td>500</td>
-</tr>
-
- <tr>
-<td>Kirubanand R</td>
-<td> <a href='https://github.com/kiruba-r11'>kiruba-r11</a></td>
-   <td>
-   <ul>
-   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/235'>#235</a></li>
-   </ul>
-   </td>
-   <td> 
-       <ul>
-   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/237'>#237</a></li>
-   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/241'>#241</a></li>       
-   </ul>
-   </td>
-   <td>
-       <ul>
-   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/255'>#255</a></li>  
-   </ul>
-      </td>
-   <td></td>
-   <td>450</td>
 </tr>
 <tr>
 <td>Ayush kumar</td>
