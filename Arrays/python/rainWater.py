@@ -23,13 +23,10 @@ two sides & the current element would give the amount of waterContent stored.
 
 Algorithm:
 - Create two array left and right of size n. Initialize the waterContent to 0.
-- To fill the left array run a loop in the arr from index 1 to n. initialize the first element of left array to first element of arr ( since first element would be the 
-largest for itself)
-- fill the elements of left array with maximum values between its left element & itself.
-- Similarly fill the right array by initializing the last element of right array with the last element of arr and traversing arr from n-2 to start.
-- Finally the water content for i'th element would be calculated by: waterContent = min(left[i], right[i]) - arr[i] . Summing the content for each element
-would give the total amount of water stored.
-
+- To fill the left array run a loop in the arr from index 1 to n. Initialize the first element of the left array to the first element of arr ( since the first element would be the largest for itself)
+- fill the elements of the left array with maximum values between its left element & itself.
+- Similarly, fill the right array by initializing the last element of the right array with the last element of arrand traversingarr` from n-2 to start.
+- Finally the water content for i'th element would be calculated by: waterContent = min(left[i], right[i]) - arr[i] . Summing the content for each element would give the total amount of water stored.
 
 """
 
@@ -60,4 +57,4 @@ def calculateWater(arr, n):
  
 arr = [0,1,4,6,2,8]
 n = len(arr)
-print("Maximum water that can be accumulated is: ", calculateWater(arr, n))
+print("Maximum water that can be accumulated for [0,1,4,6,2,8] is: ", calculateWater(arr, n))
