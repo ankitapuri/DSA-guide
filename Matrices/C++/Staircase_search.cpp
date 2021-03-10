@@ -10,6 +10,8 @@ void solve_normal_search(vector <vector <int>> m , int key) {
 	
 	// 	Time Complexity - O(n ^ 2)
 
+	cout << "Using Method - 1 with O(n ^ 2) Time Complexity" << endl;
+
 	int n = m.size();
 	bool is_found = false;
 
@@ -25,6 +27,7 @@ void solve_normal_search(vector <vector <int>> m , int key) {
 
 	if(!is_found)
 		cout << "Key not found" << endl;
+	cout << endl;
 }
 
 void solve_binary_search(vector <vector <int>> m , int key) {
@@ -36,6 +39,8 @@ void solve_binary_search(vector <vector <int>> m , int key) {
 	// 								 the key in that row or column
 
 	// Here, the row is binary searched
+
+	cout << "Using Method - 2 with O(nlogn) Time Complexity" << endl;
 	int n = m.size();
 	bool is_found = false;
 
@@ -59,6 +64,7 @@ void solve_binary_search(vector <vector <int>> m , int key) {
 	}
 	if(!is_found)
 		cout << "Key not found" << endl;
+	cout << endl;
 }
 
 void solve_staircase_search(vector <vector <int>> m , int key) {
@@ -73,6 +79,8 @@ void solve_staircase_search(vector <vector <int>> m , int key) {
 	//  thereby excluding the current row.
 	
 	//  Time Complexity - O(n) -> since, a row or column is skipped with comparison of just a single element
+
+	cout << "Using Method - 3 with O(n) Time Complexity" << endl;
 
 	int n = m.size();
 	bool is_found = false;
@@ -92,6 +100,7 @@ void solve_staircase_search(vector <vector <int>> m , int key) {
 
 	if(!is_found)
 		cout << "Key not found" << endl;
+	cout << endl;
 }
 
 int main() {
