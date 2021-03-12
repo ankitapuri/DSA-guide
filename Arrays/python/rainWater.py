@@ -55,6 +55,11 @@ def calculateWater(arr, n):
  
     return waterContent
  
-arr = [0,1,4,6,2,8]
-n = len(arr)
-print("Maximum water that can be accumulated for [0,1,4,6,2,8] is: ", calculateWater(arr, n))
+
+
+# number of elements 
+n = int(input("Enter number of elements in rainwater list : ")) 
+  
+# Below line read inputs from user using map() function  
+arr = list(map(int,input("\nEnter the elevation number separated by spaces : ").strip().split()))[:n]
+print("Maximum water that can be accumulated for {} is: ".format(arr), calculateWater(arr, n))
