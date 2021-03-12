@@ -202,6 +202,20 @@
    <td>200</td>
 </tr>
 <tr>
+<td>Abhinav Agrawal</td>
+<td> <a href='https://github.com/abhinav5481'>abhinav5481</a></td>
+   <td>         
+   </td>
+   <td></td>
+   <td>
+   <ul>
+     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/267'>#267</a></li>
+   </ul>
+   </td>
+   <td></td>
+   <td>200</td>
+</tr>
+<tr>
 <td>Gopichandpuli</td>
 <td> <a href='https://github.com/gopichandpuli9'>gopichandpuli9</a></td>
    <td>   
