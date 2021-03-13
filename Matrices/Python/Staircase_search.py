@@ -24,17 +24,45 @@ def staircase(mat, n, key):
             i += 1
     print ('Key %s not found' % (key))
 
-
 def main():
-    mat = [ [10, 20, 30, 40],
-        [15, 25, 35, 45],
-        [27, 29, 37, 48],
-        [32, 33, 39, 50] ]
-    key = 48
-    for x in mat:
-        print (x)
+    r = int(input("Enter the number of rows:")) 
+    c = int(input("Enter the number of columns:")) 
+    mat = [] 
+    print("Enter matrix elements:")
+    #Input matrix
+    for i in range(r):  
+        x=[] 
+        for j in range(c):      
+             x.append(int(input())) 
+        mat.append(x) 
+        
+    key = int(input("Enter element to be searched:")) 
+    #Display matrix
+    for i in range(r): 
+        for j in range(c): 
+            print(mat[i][j], end = " ") 
+        print() 
     staircase(mat, len(mat), key)
-
 
 if __name__ == '__main__':
     main()
+
+#Example
+
+# Enter the number of rows:3
+# Enter the number of columns:3
+# Enter matrix elements:
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# Enter element to be searched:8
+# 1 2 3 
+# 4 5 6 
+# 7 8 9 
+# Key 8 found at (3,2)
