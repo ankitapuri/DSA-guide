@@ -232,7 +232,23 @@
    <td></td>
    <td>150</td>
 </tr>
-
+<tr>
+<td>Radhika</td>
+<td> <a href='https://github.com/96RadhikaJadhav'>96RadhikaJadhav</a></td>
+   <td>
+   <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/195'>#195</a></li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/234'>#234</a></li>
+   </ul>
+   </td>
+   <td></td>
+   <td></td>
+   <td>50</td>
+</tr>
 
 <tr>
 <td>Deepak Verma</td>
@@ -260,19 +276,7 @@
    <td></td>
    <td>100</td>
 </tr>
-<tr>
-<td>Radhika</td>
-<td> <a href='https://github.com/96RadhikaJadhav'>96RadhikaJadhav</a></td>
-   <td>
-   <ul>
-   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/195'>#195</a></li>
-   </ul>
-   </td>
-   <td> </td>
-   <td></td>
-   <td></td>
-   <td>50</td>
-</tr>
+
 <tr>
 <td>Abhinav</td>
 <td> <a href='https://github.com/Abhinav0909'>Abhinav0909</a></td>
