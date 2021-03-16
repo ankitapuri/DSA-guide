@@ -34,11 +34,11 @@ def fre(arrs):
             fre.append(list(Counter(arr).items())[0][1]) 
         return fre
 
-input_queries = input('Enter elements of a queries separated by space ')
+input_queries = input('Enter elements of a queries separated by space: ')
 print("\n")
 queries_list = input_queries.split()
 
-input_words = input('Enter elements of a words separated by space ')
+input_words = input('Enter elements of a words separated by space: ')
 print("\n")
 words_list = input_words.split()
 
