@@ -22,11 +22,12 @@
        <ul>
    <li><a href='https://github.com/ankitapuri/DSA-guide/pull/255'>#255</a></li>  
      <li><a href='https://github.com/ankitapuri/DSA-guide/pull/263'>#263</a></li>  
-     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/272'>#272</a></li>        
+     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/272'>#272</a></li> 
+      <li><a href='https://github.com/ankitapuri/DSA-guide/pull/278'>#278</a></li>    
    </ul>
       </td>
    <td></td>
-   <td>850</td>
+   <td>1050</td>
 </tr>
   <tr>
 <td>hardik chitkara</td>
@@ -92,22 +93,6 @@
    <td>550</td>
 </tr>
 <tr>
-<td>Ayush kumar</td>
-<td> <a href='https://github.com/Ayush7614'>Ayush7614</a></td>
-   <td>         
-   </td>
-   <td></td>
-   <td>
-   <ul>
-     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/205'>#205</a></li>
-      <li><a href='https://github.com/ankitapuri/DSA-guide/pull/191'>#191</a></li>
-   </ul>
-   </td>
-   <td></td>
-   <td>400</td>
-
-<tr>
-<tr>
    <td>Rakesh </td>
    <td><a href='https://github.com/deephunt3r'>deephunt3r</a></td>
    <td>
@@ -122,12 +107,30 @@
    <td>
       <ul>
           <li><a href='https://github.com/ankitapuri/DSA-guide/pull/179'>#179</a></li>
+         <li><a href='https://github.com/ankitapuri/DSA-guide/pull/271'>#271</a></li>
       </ul>
       
    </td>
    <td></td>
-   <td>350</td>
+   <td>550</td>
 </tr>
+<tr>
+<td>Ayush kumar</td>
+<td> <a href='https://github.com/Ayush7614'>Ayush7614</a></td>
+   <td>         
+   </td>
+   <td></td>
+   <td>
+   <ul>
+     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/205'>#205</a></li>
+      <li><a href='https://github.com/ankitapuri/DSA-guide/pull/191'>#191</a></li>
+   </ul>
+   </td>
+   <td></td>
+   <td>400</td>
+
+</tr>
+
 <tr>
 <td>Amit Kumar Mishra</td>
 <td> <a href='https://github.com/Amit366'>Amit366</a></td>
@@ -146,24 +149,7 @@
    <td></td>
    <td>300</td>
 </tr>
-<tr>
-<td>Vybhav</td>
-<td> <a href='https://github.com/vybhav72954'>vybhav72954</a></td>
-   <td>   
-   <ul>
-   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/253'>#253</a></li>
-   </ul>
-   </td>
-   <td>
-   <ul>
-   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/252'>#252</a></li>
-      <li><a href='https://github.com/ankitapuri/DSA-guide/pull/261'>#261</a></li>
-   </ul>
-   </td>
-   <td></td>
-   <td></td>
-   <td>150</td>
-</tr>
+
 <tr>
    <td>Achyut Kumar Panda </td>
    <td> <a href='https://github.com/Sloth-Panda'>Sloth-Panda</a></td>
@@ -178,7 +164,25 @@
    <td></td>
    <td>200</td>
 </tr>
-
+<tr>
+<td>Vybhav</td>
+<td> <a href='https://github.com/vybhav72954'>vybhav72954</a></td>
+   <td>   
+   <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/253'>#253</a></li>
+    <li><a href='https://github.com/ankitapuri/DSA-guide/pull/287'>#287</a></li>  
+   </ul>
+   </td>
+   <td>
+   <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/252'>#252</a></li>
+      <li><a href='https://github.com/ankitapuri/DSA-guide/pull/261'>#261</a></li>
+   </ul>
+   </td>
+   <td></td>
+   <td></td>
+   <td>200</td>
+</tr>
 
 <td>noviicee</td>
 <td> <a href='https://github.com/noviicee'>noviicee</a></td>
