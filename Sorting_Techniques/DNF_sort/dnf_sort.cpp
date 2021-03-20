@@ -1,11 +1,15 @@
 #include <iostream>
 
 using namespace std;
+
+//function to swap
 void swap(int arr[], int i, int j){
     int temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp;
 }
+
+// function for sorting 0's,1's and 2's
 void dnfSort(int arr[], int n){
     int low = 0;
     int mid = 0;
@@ -26,6 +30,7 @@ void dnfSort(int arr[], int n){
     }
 }
 
+//main function
 int main()
 {
     int n;
