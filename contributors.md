@@ -29,6 +29,25 @@
    <td></td>
    <td>1050</td>
 </tr>
+   <tr>   
+<td>Akash</td>
+<td> <a href='https://github.com/Akash20x'>Akash20x</a></td>
+   <td></td>
+   <td> </td>
+   <td>
+    <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/266'>#266</a></li>
+    <li><a href='https://github.com/ankitapuri/DSA-guide/pull/288'>#288</a></li>
+     </ul>
+</td>
+   <td>
+      <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/244'>#244</a></li>
+     </ul>
+      </td>
+   <td>900</td>
+</tr>
+   
   <tr>
 <td>hardik chitkara</td>
 <td> <a href='https://github.com/hardikchitkara'>hardikchitkara</a></td>
@@ -50,24 +69,7 @@
       </td>
    <td>750</td>
 </tr>
-  <tr>   
-<td>Akash</td>
-<td> <a href='https://github.com/Akash20x'>Akash20x</a></td>
-   <td></td>
-   <td> </td>
-   <td>
-    <ul>
-   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/266'>#266</a></li>
-     </ul>
-</td>
-   <td>
-      <ul>
-   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/244'>#244</a></li>
-     </ul>
-      </td>
-   <td>700</td>
-</tr>
-   
+ 
    
    <td>Yashasvi</td>
    <td><a href='https://github.com/kmryashasvi'>kmryashasvi</a></td>
@@ -149,7 +151,24 @@
    <td></td>
    <td>300</td>
 </tr>
-
+<tr>
+<td>Abhinav Agrawal</td>
+<td> <a href='https://github.com/abhinav5481'>abhinav5481</a></td>
+   <td>         
+   </td>
+   <td>
+      <ul>
+     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/273'>#273</a></li>
+   </ul>
+  </td>
+   <td>
+   <ul>
+     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/267'>#267</a></li>
+   </ul>
+   </td>
+   <td></td>
+   <td>300</td>
+</tr>
 <tr>
    <td>Achyut Kumar Panda </td>
    <td> <a href='https://github.com/Sloth-Panda'>Sloth-Panda</a></td>
@@ -211,20 +230,7 @@
    <td></td>
    <td>200</td>
 </tr>
-<tr>
-<td>Abhinav Agrawal</td>
-<td> <a href='https://github.com/abhinav5481'>abhinav5481</a></td>
-   <td>         
-   </td>
-   <td></td>
-   <td>
-   <ul>
-     <li><a href='https://github.com/ankitapuri/DSA-guide/pull/267'>#267</a></li>
-   </ul>
-   </td>
-   <td></td>
-   <td>200</td>
-</tr>
+
 <tr>
 <td>Gopichandpuli</td>
 <td> <a href='https://github.com/gopichandpuli9'>gopichandpuli9</a></td>
