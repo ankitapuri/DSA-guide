@@ -24,10 +24,11 @@
      <li><a href='https://github.com/ankitapuri/DSA-guide/pull/263'>#263</a></li>  
      <li><a href='https://github.com/ankitapuri/DSA-guide/pull/272'>#272</a></li> 
       <li><a href='https://github.com/ankitapuri/DSA-guide/pull/278'>#278</a></li>    
+         <li><a href='https://github.com/ankitapuri/DSA-guide/pull/293'>#293</a></li>    
    </ul>
       </td>
    <td></td>
-   <td>1050</td>
+   <td>1250</td>
 </tr>
    <tr>   
 <td>Akash</td>
@@ -171,6 +172,23 @@
    <td>300</td>
 </tr>
 <tr>
+<td>ShudhanshuSingh</td>
+<td> <a href='https://github.com/ShudhanshuSingh'>ShudhanshuSingh</a></td>
+   <td> </td>
+   <td>
+   <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/224'>#224</a></li>
+   </ul>
+   </td>
+   <td>
+     <ul>
+   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/290'>#290</a></li>
+   </ul>
+  </td>
+   <td></td>
+   <td>300</td>
+</tr>
+<tr>
    <td>Achyut Kumar Panda </td>
    <td> <a href='https://github.com/Sloth-Panda'>Sloth-Panda</a></td>
    <td>         
@@ -280,19 +298,7 @@
    <td></td>
    <td>100</td>
 </tr>
-<tr>
-<td>ShudhanshuSingh</td>
-<td> <a href='https://github.com/ShudhanshuSingh'>ShudhanshuSingh</a></td>
-   <td> </td>
-   <td>
-   <ul>
-   <li><a href='https://github.com/ankitapuri/DSA-guide/pull/224'>#224</a></li>
-   </ul>
-   </td>
-   <td></td>
-   <td></td>
-   <td>100</td>
-</tr>
+
 
 <tr>
 <td>Abhinav</td>
