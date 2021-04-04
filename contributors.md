@@ -70,6 +70,29 @@
       </td>
    <td>750</td>
 </tr>
+<tr>
+   <td>Rakesh </td>
+   <td><a href='https://github.com/deephunt3r'>deephunt3r</a></td>
+   <td>
+      <ul>
+         <li><a href='https://github.com/ankitapuri/DSA-guide/pull/168'>#168</a></li>
+          <li><a href='https://github.com/ankitapuri/DSA-guide/pull/178'>#178</a></li>
+         <li><a href='https://github.com/ankitapuri/DSA-guide/pull/211'>#211</a></li>
+      </ul>
+      
+   </td>
+   <td></td>
+   <td>
+      <ul>
+         <li><a href='https://github.com/ankitapuri/DSA-guide/pull/203'>#203</a></li>
+          <li><a href='https://github.com/ankitapuri/DSA-guide/pull/179'>#179</a></li>
+         <li><a href='https://github.com/ankitapuri/DSA-guide/pull/271'>#271</a></li>
+      </ul>
+      
+   </td>
+   <td></td>
+   <td>750</td>
+</tr>
  <tr>
 <td>Abhinav Agrawal</td>
 <td> <a href='https://github.com/abhinav5481'>abhinav5481</a></td>
@@ -114,28 +137,7 @@
    <td></td>
    <td>550</td>
 </tr>
-<tr>
-   <td>Rakesh </td>
-   <td><a href='https://github.com/deephunt3r'>deephunt3r</a></td>
-   <td>
-      <ul>
-         <li><a href='https://github.com/ankitapuri/DSA-guide/pull/168'>#168</a></li>
-          <li><a href='https://github.com/ankitapuri/DSA-guide/pull/178'>#178</a></li>
-           <li><a href='https://github.com/ankitapuri/DSA-guide/pull/211'>#211</a></li>
-      </ul>
-      
-   </td>
-   <td></td>
-   <td>
-      <ul>
-          <li><a href='https://github.com/ankitapuri/DSA-guide/pull/179'>#179</a></li>
-         <li><a href='https://github.com/ankitapuri/DSA-guide/pull/271'>#271</a></li>
-      </ul>
-      
-   </td>
-   <td></td>
-   <td>550</td>
-</tr>
+
 
 <tr>
 <td>Ayush kumar</td>
